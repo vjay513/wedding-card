@@ -50,6 +50,8 @@ body {
   -webkit-transition: all 1s ease 0.5s;
   -o-transition: all 1s ease 0.5s;
   transition: all 1s ease 0.5s;
+  height: 600px;
+    overflow: hidden;
   &.visible {
     opacity: 1;
   }
@@ -81,7 +83,10 @@ header {
   background-image: url('abcd.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200vh;
+  //height: 200vh;
+  height: 300px;
+    width: 300px;
+    margin-left: 40px;
 }
 
 .center {
