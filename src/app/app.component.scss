@@ -1,137 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Lato');
-
-$white: #fff;
-$black: #222;
-$blue: #2e4c72;
-$gray: #959182;
-$highlight: #ea8478;
-$footer: #eaebea;
-$border: #fff2ec;
-$button: #eebea9;
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  &::before, &::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: $gray;
-  background: $white;
-  text-rendering: optimizeLegibility;
-  background: $white;
-  border-left: 0.625rem solid $border;
-  border-right: 0.625rem solid $border;
-  height: 100vh;
-  &::before, &::after {
-    position: absolute;
-    content: '';
-    left: 0;
-    right: 0;
-    height: 0.625rem;
-    background: $border;
-  }
-  &::before {
-    top: 0;
-  }
-  &::after {
-    bottom: 0;
-  }
-}
-
-.preload {
-  opacity: 1;
-  -webkit-transition: all 1s ease 0.5s;
-  -o-transition: all 1s ease 0.5s;
-  transition: all 1s ease 0.5s;
-  height: 600px;
-    overflow: hidden;
-  &.visible {
-    opacity: 1;
-  }
-}
-
-a {
-  color: $white;
-}
-
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  line-height: 1.1;
-}
-
-h1 {
-  color: $blue;
-  font-size: 3rem;
-  margin: 1rem 0 1.45rem 0;
-}
-
-h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem;
-  color: $black;
-  text-transform: uppercase;
-}
-
-header {
-  background-image: url('abcd.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  //height: 200vh;
-  height: 300px;
-    width: 300px;
-    margin-left: 40px;
-}
-
-.center {
-  height: 100vh;
-  justify-items: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.container {
+  color: #fff;
+  margin: 0 auto;
   text-align: center;
 }
 
-.credit {
-  position: absolute;
-  display: block;
-  margin: 0 0 1rem 0;
-  bottom: 0;
-  color: $white;
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
-main {
-  background: $white;
-}
-
-.rsvp-button {
+li {
   display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  color: $white;
-  font-size: 1.125rem;
-  font-weight: bold;
-  padding: 1rem 1.5rem;
-  margin: 1.625rem 0 0 0;
-  background: $button;
-  border: 0.125rem solid $button;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  &:hover {
-    color: $white;
-    background: $black;
-    border-color: $black;
-  }
+  list-style-type: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-left: 10px;
+  font-family: cursive;
+  border: 2px dotted #fff90061;
+}
+
+li span {
+  display: block;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
+
+
+.names {
+  color: #ff0076;
+  font-size: 25px;
+  padding: 5px;
+  font-family: cursive;
+}
+
+.title{
+  color: #fff;
+  font-family: cursive;
+}
+
+.title1{
+  color: #27ea48;
+  font-family: cursive;
+}
+
+.title_{
+  font-family: cursive;
+    margin-top: 10px;
+    color: #ca8f22;
+}
+
+.dest{
+  color: #fff900;
+  font-family: cursive;
+}
+
+.dates {
+  margin-top: 20px;
+}
+
+.place {
+  margin-top: 20px;
+}
+
+.cards {
+  background: #232427;
+  padding: 30px;
+  padding-bottom: 50px;
+  border-radius: 90px;
+  margin-top: 30px;
 }
