@@ -1,7 +1,13 @@
+.container1{
+  background-image: url(../assets/wall.jpg);
+  padding-top: 10px;
+}
 .container {
   color: #fff;
   margin: 0 auto;
   text-align: center;
+  background-image: url(../assets/wall.jpg);
+
 }
 
 h1 {
@@ -17,7 +23,9 @@ li {
   font-size: 10px;
   margin-left: 10px;
   font-family: cursive;
-  border: 2px dotted #fff90061;
+  background: #fff;
+  color: #d51111;
+  border-radius: 50%;
 }
 
 li span {
@@ -35,26 +43,30 @@ li span {
 
 
 .names {
-  color: #ff0076;
+  color: #fff;
   font-size: 25px;
   padding: 5px;
   font-family: cursive;
 }
 
 .title{
-  color: #fff;
+  color: #ff0076;
   font-family: cursive;
 }
 
 .title1{
   color: #27ea48;
   font-family: cursive;
+  font-size: 40px;
+  width: 100px;
+  margin-left: 160px;
+  margin-top: -40px;
 }
 
 .title_{
   font-family: cursive;
-    margin-top: 10px;
-    color: #ca8f22;
+    margin-top: 50px;
+    color: yellow;
 }
 
 .dest{
@@ -64,16 +76,58 @@ li span {
 
 .dates {
   margin-top: 20px;
+  margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
 }
 
 .place {
   margin-top: 20px;
+  border-bottom: 2px solid;
+    padding-bottom: 20px;
 }
 
 .cards {
-  background: #232427;
   padding: 30px;
   padding-bottom: 50px;
   border-radius: 90px;
   margin-top: 30px;
+}
+
+div#countdown {
+  margin-left: -40px;
+  font-weight: bold;
+  color: #fff900;
+}
+
+.person {
+  margin-top: 30px;
+  border-top: 2px dotted;
+  border-bottom: 2px dotted;
+}
+
+.typing-demo {
+  width: 19ch;
+  animation: typing 2s steps(22), blink 0.5s;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.border {
+  border: 2px dotted;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
