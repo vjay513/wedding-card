@@ -1,4 +1,158 @@
-html {
-  background-image: url(assets/wall.jpg);
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-  
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+.fancy-text div {
+  font-family: "Pacifico", cursive;
+  font-size: 4em;
+  margin: 0;
+  padding-top: 0;
+  transform: rotate(-5deg);
+}
+
+p,
+div {
+  font-family: "Arimo", sans-serif;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.fill {
+  height: 100%;
+  width: 100%;
+}
+
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.banner {
+  border-top: medium double;
+  border-bottom: medium double;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+}
+/** Header CSS **/
+
+#header {
+  position: relative;
+  display: table;
+  background-image: url(https://cloud.githubusercontent.com/assets/10179313/9291596/92b4f078-4398-11e5-8fb2-eebeef609440.jpg);
+  background-position: 100% 90%;
+  width: 100%;
+  height: 100%;
+}
+
+#date {
+  margin-top: -0.6em;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+/** Who CSS **/
+
+#about-us {
+  padding-top: 50px;
+}
+
+.bio-pic img {
+  max-height: 500px;
+  margin: auto;
+}
+
+/** When CSS **/
+
+#when {
+  display: table;
+  position: relative;
+  background-image: url("https://cloud.githubusercontent.com/assets/10179313/9291598/b3a9bb7e-4398-11e5-959a-3fc37b37d63a.jpeg");
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 500px;
+}
+
+.is-countdown {
+  background: none;
+  border: none;
+}
+
+#countdown-row span {
+  font-family: "Oswald", san-serif;
+  font-size: 18px;
+}
+
+/** Where CSS **/
+
+#where {
+  background-color: #edefed;
+}
+
+/** Gallery CSS **/
+
+.bio-pic {
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+  margin-left: 40px;
+  overflow: hidden;
+}
+
+.gallery-pic {
+  height: 250px;
+  width: 250px;
+  margin: 25px;
+  margin-left: 40px;
+  overflow: hidden;
+}
+
+.gallery-pic img {
+  margin: auto;
+  height: 400px;
+  width: 300px;
+}
+/** RSVP CSS **/
+
+#rsvp {
+  padding: 50px;
+  background-color: #edefed;
+}
+/** Thank You CSS **/
+
+#thank-you-div {
+  position: relative;
+  display: table;
+  background-image: url("assets/wow\ \(5\).jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+*{
+  overflow-x: hidden;
+}

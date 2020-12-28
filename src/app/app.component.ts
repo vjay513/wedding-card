@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  days:any;
+  loader = true;
+    days:any;
   hours:any;
   minutes:any;
   seconds:any;
+  
   ngOnInit(){
     const second = 1000,
     minute = second * 60,

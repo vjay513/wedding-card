@@ -1,133 +1,109 @@
-.container1{
-  background-image: url(../assets/wall.jpg);
-  padding-top: 10px;
+
+
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+#days {
+  font-size: 30px;
+  color: #db4844;
 }
-.container {
-  color: #fff;
-  margin: 0 auto;
-  text-align: center;
-  background-image: url(../assets/wall.jpg);
-
-}
-
-h1 {
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 10px;
-  text-transform: uppercase;
-  font-size: 10px;
-  margin-left: 10px;
-  font-family: cursive;
-  background: #fff;
-  color: #d51111;
-  border-radius: 50%;
-}
-
-li span {
-  display: block;
-}
-
-#content {
-  display: none;
-  padding: 1rem;
-}
-
-.emoji {
-  padding: 0 .25rem;
-}
-
-
-.names {
-  color: #fff;
+#hours {
   font-size: 25px;
-  padding: 5px;
-  font-family: cursive;
+  color: #f07c22;
 }
-
-.title{
-  color: #ff0076;
-  font-family: cursive;
+#minutes {
+  font-size: 20px;
+  color: #f6da74;
 }
-
-.title1{
-  color: #27ea48;
-  font-family: cursive;
-  font-size: 40px;
-  width: 100px;
-  margin-left: 160px;
-  margin-top: -40px;
+#seconds {
+  font-size: 15px;
+  color: #abcd58;
 }
-
-.title_{
-  font-family: cursive;
-    margin-top: 50px;
-    color: yellow;
-}
-
-.dest{
-  color: #fff900;
-  font-family: cursive;
-}
-
-.dates {
-  margin-top: 20px;
-  margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 2px dotted;
-    padding-bottom: 20px;
-}
-
-.place {
-  margin-top: 20px;
-  border-bottom: 2px solid;
-    padding-bottom: 20px;
-}
-
-.cards {
-  padding: 30px;
-  padding-bottom: 50px;
-  border-radius: 90px;
-  margin-top: 30px;
-}
-
-div#countdown {
-  margin-left: -40px;
+li {
+  list-style: none;
+  line-height: 30px;
+  display: flex;
+  flex-flow: column-reverse;
+  color: #fff;
   font-weight: bold;
-  color: #fff900;
+  font-family: "Pacifico", cursive;
 }
 
-.person {
-  margin-top: 30px;
-  border-top: 2px dotted;
-  border-bottom: 2px dotted;
+#corben-pic{
+  background-image: url(../assets/vijay1.jpg);
+  height: 336px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px -41px;
 }
 
-.typing-demo {
-  width: 19ch;
-  animation: typing 2s steps(22), blink 0.5s;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
+
+#daniela-pic{
+  background-image: url(../assets/bhav1.jpg);
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 1px 0px;
 }
 
-.border {
-  border: 2px dotted;
+.gal-1 {
+  background-image: url(../assets/wow1.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px -71px;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
+.gal-2 {
+  background-image: url(../assets/wow2.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+.gal-3 {
+  background-image: url(../assets/wow3.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gal-4 {
+  background-image: url(../assets/wow4.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gal-5 {
+  background-image: url(../assets/wow6.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gal-6 {
+  background-image: url(../assets/wow7.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gal-7 {
+  background-image: url(../assets/wow8.jpeg);
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
