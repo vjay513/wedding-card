@@ -50,13 +50,12 @@ li {
 }
 
 .gal-1 {
-  background-image: url(../assets/wow1.jpeg);
+  background-image: url(../assets/wow1.jpg);
   height: 330px;
-  width: 100%;
+  width: 180px;
   object-fit: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 0px -71px;
 }
 
 .gal-2 {
@@ -92,7 +91,7 @@ li {
   background-repeat: no-repeat;
 }
 .gal-6 {
-  background-image: url(../assets/wow7.jpeg);
+  background-image: url(../assets/wow7.jpg);
   height: 330px;
   width: 100%;
   object-fit: cover;
@@ -106,4 +105,25 @@ li {
   object-fit: cover;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.gal-11 {
+  background-image: url(../assets/kal1.jpg);
+  height: 134px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gal-12 {
+  background-image: url(../assets/kal2.jpeg);
+  height: 236px;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.place1, .place2 {
+  background: #fff;
 }
