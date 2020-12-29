@@ -16,6 +16,7 @@ h4,
 h5,
 h6 {
  font-family: "Pacifico", cursive;
+ overflow: hidden;
 }
 
 .fancy-text div {
@@ -179,10 +180,16 @@ div {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   margin: 10px;
   padding: 10px;
-
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #gallery {
   box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
   margin: 5px;
+}
+
+#save-the-date {
+  overflow: hidden;
 }

@@ -5,10 +5,12 @@
 #days {
   font-size: 30px;
   color: #db4844;
+  overflow: hidden;
 }
 #hours {
   font-size: 25px;
   color: #f07c22;
+  overflow: hidden;
 }
 #minutes {
   font-size: 20px;
@@ -26,8 +28,11 @@ li {
   color: #fff;
   font-weight: bold;
   font-family: "Pacifico", cursive;
+  overflow: hidden;
 }
-
+#counting-down{
+  overflow: hidden;
+}
 #corben-pic{
   background-image: url(../assets/vijay1.jpg);
   height: 336px;
@@ -91,7 +96,7 @@ li {
   background-repeat: no-repeat;
 }
 .gal-6 {
-  background-image: url(../assets/wow7.jpg);
+  background-image: url(../assets/wow7.jpeg);
   height: 330px;
   width: 100%;
   object-fit: cover;
@@ -110,7 +115,7 @@ li {
 .gal-11 {
   background-image: url(../assets/kal1.jpg);
   height: 134px;
-  width: 100%;
+  width: 259px;
   object-fit: cover;
   background-size: contain;
   background-repeat: no-repeat;
@@ -119,7 +124,7 @@ li {
 .gal-12 {
   background-image: url(../assets/kal2.jpeg);
   height: 236px;
-  width: 100%;
+  width: 259px;
   object-fit: cover;
   background-size: contain;
   background-repeat: no-repeat;
