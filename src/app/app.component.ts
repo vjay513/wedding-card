@@ -13,6 +13,10 @@ export class AppComponent implements OnInit{
   seconds:any;
   
   ngOnInit(){
+
+    setTimeout(() =>{
+      this.loader = false;
+    }, 2000)
     const second = 1000,
     minute = second * 60,
     hour = minute * 60,
