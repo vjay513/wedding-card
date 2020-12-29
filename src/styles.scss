@@ -154,6 +154,9 @@ div {
 }
 
 .place3 {
+/*   h2, h3,h4,h5 {
+    font-weight: bolder;
+  } */
   display: table;
   position: relative;
   background-image: url(assets/wed1.jpg) !important;
@@ -163,7 +166,6 @@ div {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   text-align: center;
   color: #dbdde2;
-  animation: textColor 10s ease infinite;
   background-position: -150px !important;
 }
 
@@ -200,13 +202,10 @@ div {
 }
 @keyframes textColor {
   0% {
-    color: #7e0fff;
-  }
-  50% {
-    color: #0fffc1;
+    color : rgb(17, 13, 13);
   }
   100% {
-    color: #7e0fff;
+    color: white;
   }
 }
 /** RSVP CSS **/
