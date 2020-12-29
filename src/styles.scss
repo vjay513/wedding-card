@@ -67,7 +67,7 @@ div {
 #header {
   position: relative;
   display: table;
-  background-image: url(https://cloud.githubusercontent.com/assets/10179313/9291596/92b4f078-4398-11e5-8fb2-eebeef609440.jpg);
+  background-image: url(https://cloud.githubusercontent.com/assets/10179313/9291596/92b4f078-4398-11e5-8fb2-eebeef609440.jpg) !important;
   background-position: 100% 90%;
   width: 100%;
   height: 100%;
@@ -94,7 +94,7 @@ div {
 #when {
   display: table;
   position: relative;
-  background-image: url(https://cloud.githubusercontent.com/assets/10179313/9291598/b3a9bb7e-4398-11e5-959a-3fc37b37d63a.jpeg);
+  background-image: url(https://cloud.githubusercontent.com/assets/10179313/9291598/b3a9bb7e-4398-11e5-959a-3fc37b37d63a.jpeg) !important;
   background-size: cover;
   background-position: center bottom;
   width: 94%;
@@ -153,6 +153,62 @@ div {
   margin-top: 20px;
 }
 
+.place3 {
+  display: table;
+  position: relative;
+  background-image: url(assets/wed1.jpg) !important;
+  background-size: cover;
+  background-position: center bottom;
+  width: 94%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #dbdde2;
+  animation: textColor 10s ease infinite;
+  background-position: -150px !important;
+}
+
+
+.place3:after {
+  position: absolute;
+  content: "";
+  top: 5vw;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.75);
+  -webkit-filter: blur(5vw);
+  -moz-filter: blur(5vw);
+  -ms-filter: blur(5vw);
+  filter: blur(5vw);
+  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background-size: 200% 200%;
+  animation: animateGlow 10s ease infinite;
+}
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textColor {
+  0% {
+    color: #7e0fff;
+  }
+  50% {
+    color: #0fffc1;
+  }
+  100% {
+    color: #7e0fff;
+  }
+}
 /** RSVP CSS **/
 
 #rsvp {
